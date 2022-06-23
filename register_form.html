@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+
+  <title>Yarden Paniry</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <li><a href="#firstname">first Name</a></li>
+        <li><a href="#lastname">last Name</a></li>
+        <li><a href="#email">Email</a></li>
+        <li><a href="#city">city</a></li>
+        <li><a href="#freeText">more information</a></li>
+
+    </div>
+
+    
+  <form action="/action_page.php">
+    <div class="container">
+      <h1>Register</h1>
+
+      <label for="firstname"><b>first name</b></label>
+      <input type="text" placeholder="Enter first name" name="firstname" id="firstname" required>
+
+      <label for="lastname"><b>last name</b></label>
+      <input type="text" placeholder="Enter last name" name="lastname" id="lastname" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+      <label for="city"><b>Choose city:</b></label>
+      <select id="city" name="city">
+        <option value="jerusalem">jerusalem</option>
+        <option value="telaviv">tel-aviv</option>
+        <option value="haifa">haifa</option>
+        <option value="eilat">eilat</option>
+      </select>
+
+      <label for="freeText"><b>more information</b></label>
+      <input type="text" placeholder="" name="freeText" id="freeText" required>
+
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+
+
+  </form>
+  <script src="src/script.js"></script>
+</body>
+
+</html>
